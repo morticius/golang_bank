@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/morticius/go_bank/util"
+	"github.com/morticius/golang_bank/util"
 	"github.com/stretchr/testify/require"
 )
 
