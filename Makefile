@@ -15,5 +15,8 @@ migratedown:
 
 sqlc:
 	sqlc generate
+
+test:
+	go test -v -coverprofile cover.out ./...
 	
 .PHONY: postgres createdb dropdb

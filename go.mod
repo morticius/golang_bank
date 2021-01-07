@@ -1,4 +1,4 @@
-module github.com/morticius/go-bank
+module github.com/morticius/golang_bank
 
 go 1.15
 
