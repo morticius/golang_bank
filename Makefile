@@ -18,5 +18,8 @@ sqlc:
 
 test:
 	go test -v -coverprofile cover.out ./...
+
+server:
+	go run main.go
 	
 .PHONY: postgres createdb dropdb
